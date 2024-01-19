@@ -7,6 +7,6 @@ import java.util.List;
 public class LogicDTO {
     private String expression;
     private String logicValue;
-    private List<SubQuestionDTO> questions;
+    private List<QuestionDTO> questionDTOS;
 
 }

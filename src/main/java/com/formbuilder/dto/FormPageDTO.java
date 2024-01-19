@@ -7,7 +7,7 @@ import java.util.List;
 public class FormPageDTO {
     private String pageUuid;
     private String title;
-    private SectionDTO section;
+    private List<SectionDTO> section;
     private List<QuestionDTO> questions;
     private List<SubFormDTO> subform;
 }

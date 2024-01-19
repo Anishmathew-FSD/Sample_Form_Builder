@@ -3,6 +3,6 @@ package com.formbuilder.dto;
 import lombok.Data;
 
 @Data
-public class DropDownApperanceDTO extends AppearanceDTO{
+public class DropDownAppearanceDTO extends AppearanceDTO {
     private boolean singleSelection;
 }

@@ -85,3 +85,13 @@ n
 >src/main/java/com/formbuilder/dto/DatePickerAppearanceDTO.java,2\8\289a4bc03fd8adc4ee6dce131172684e30973e9e
 k
 ;src/main/java/com/formbuilder/dto/TextBoxAppearanceDTO.java,e\7\e7258a058ec5ba23507de0b20d2ecbd8bc449915
+]
+-src/main/java/com/formbuilder/dto/Sample.java,c\9\c900250cd687488044a6be838fa01862d41727f6
+g
+7src/main/java/com/formbuilder/dto/AllAppearanceDTO.java,d\3\d36cf76414b60aa90229773e6770e9223fb3876e
+l
+<src/main/java/com/formbuilder/dto/DropDownAppearanceDTO.java,a\8\a8418cb062dc2484466a2beeacc17e0d905e35a2
+p
+@src/main/java/com/formbuilder/dto/response/CommonAppearance.java,5\9\596a9113a5a2d37c2730e1dd34e7edf129ac59bf
+k
+;src/main/java/com/formbuilder/dto/TranslatedSectionDTO.java,3\3\331766feef09aae5b85f0d6f71d05e2319a6b1f6

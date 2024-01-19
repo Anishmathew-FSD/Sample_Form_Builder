@@ -1,6 +1,11 @@
 package com.formbuilder.dto;
 
-public class TextBoxAppearanceDTO extends AppearanceDTO{
+import lombok.Getter;
+import lombok.Setter;
+
+@Setter
+@Getter
+public class TextBoxAppearanceDTO extends AppearanceDTO  {
     private int fontSize;
     private boolean underline;
     private boolean bold;

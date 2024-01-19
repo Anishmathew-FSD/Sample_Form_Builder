@@ -7,5 +7,8 @@ import java.util.List;
 public class LanguageTranslationDTO {
     private String language;
     private String isoCode;
+    private String formTitle;
+    private String formDescription;
+    private List<TranslatedSectionDTO> sectionDTOS;
     private List<TranslatedQuestionDTO> questions;
 }
