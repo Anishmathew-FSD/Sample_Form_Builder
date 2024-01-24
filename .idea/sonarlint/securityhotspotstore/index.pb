@@ -97,3 +97,9 @@ n
 >src/main/java/com/formbuilder/dto/FilePickerAppearanceDTO.java,9\3\93248cff034cebc301a2063ee3c4f8dc32d5b9a6
 m
 =src/main/java/com/formbuilder/dto/SignatureAppearanceDTO.java,1\5\15d69dfa2ec04cca689729bbbfb574b39a60e098
+u
+Esrc/main/java/com/formbuilder/dto/LocationSignatureAppearanceDTO.java,c\7\c76c897aa688b2635096ba5370b73ca5e6ade078
+l
+<src/main/java/com/formbuilder/dto/LocationAppearanceDTO.java,1\b\1be0563e2a24f409990a9c96943edc1b8b659c16
+d
+4src/main/java/com/formbuilder/enumform/FileType.java,5\0\504159b25ac3c7e966bff5d171f8cc5a958b69f4

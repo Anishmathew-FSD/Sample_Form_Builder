@@ -1,5 +1,6 @@
 package com.formbuilder.dto;
 
+import com.formbuilder.enumform.FileType;
 import lombok.Data;
 
 @Data
@@ -10,7 +11,7 @@ public class ValidationDTO {
     private String maxDate;
     private int minSelection;
     private int maxSelection;
-    private String fileType;
+    private FileType fileType;
     private int fileSize;
     private String fileSizeUnit;
     private  int maxFileSize;
