@@ -10,7 +10,6 @@ import java.util.List;
 public class LogicDTO {
     private String expression;
     private String logicValue;
-    @ApiModelProperty(value = "List of questions affected by this logic")
+    @ApiModelProperty(value = "List of sub questions affected by this logic")
     private List<QuestionDTO> questionDTOS;
-
 }
