@@ -1,2 +1,13 @@
 
-X	java:S125"<This block of commented-out lines of code should be removed.(íÄ£Ö8ù¾¼¹Ñ1
+^
+java:S1854,"<Remove this useless assignment to local variable "formDTO1".(€ßÁÆÿÿÿÿÿ8²şµ Ö1
+®
+java:S1130+"‹Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException', as it cannot be thrown from method's body.(¡„ëĞşÿÿÿÿ8™¡ Ö1
+X	java:S125"<This block of commented-out lines of code should be removed.(íÄ£Ö8™¡ Ö1
+]	java:S125&"<This block of commented-out lines of code should be removed.(É˜ó‚ÿÿÿÿÿ8™¡ Ö1
+O
+java:S1481,"-Remove this unused "formDTO1" local variable.(€ßÁÆÿÿÿÿÿ8µşµ Ö1
+W
+java:S1128"5Remove this unused import 'jakarta.validation.Valid'.(ÀãÅ”ûÿÿÿÿ8¬™¡ Ö1
+W
+java:S1144/":Remove this unused private "covertStringToFormDto" method.(ú›ƒ•8­™¡ Ö1

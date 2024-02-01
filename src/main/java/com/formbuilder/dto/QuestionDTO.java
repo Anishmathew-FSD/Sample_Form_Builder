@@ -10,6 +10,6 @@ public class QuestionDTO {
     private String question;
     private boolean required;
     private ElementType elementType;
-    private PropertiesDTO properties;
+   private PropertiesDTO properties;
     private List<LogicDTO> logic;
 }

@@ -1,5 +1,7 @@
 package com.formbuilder.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.formbuilder.dto.FormDTO;
 import com.formbuilder.dto.response.ResponseDTO;
 import io.swagger.v3.oas.annotations.Operation;
@@ -8,10 +10,8 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/")
@@ -34,7 +34,20 @@ public class FormController {
             @ApiResponse(responseCode = "404", description = "Entity not found")}
     )
 
-    public ResponseEntity<ResponseDTO<Void>> saveFormBuilder(@Valid @RequestBody FormDTO formDTO) {
+
+ /*   public ResponseEntity<ResponseDTO<Void>> saveFormBuilder(@Valid @RequestBody FormDTO formDTO) {
         return ResponseEntity.ok(new ResponseDTO<>("Saved Successfully"));
+    }*/
+
+
+    public ResponseEntity<ResponseDTO<Void>> saveFormBuilder( @RequestPart("data")  FormDTO formDTO,@RequestPart("file") MultipartFile file) throws JsonProcessingException {
+        FormDTO formDTO1=formDTO;
+        return ResponseEntity.ok(new ResponseDTO<>("Saved Successfully"));
+    }
+    private FormDTO covertStringToFormDto(String formdto) throws JsonProcessingException {
+
+        ObjectMapper objectMapper=new ObjectMapper();
+        return objectMapper.readValue(formdto,FormDTO.class);
+
     }
 }

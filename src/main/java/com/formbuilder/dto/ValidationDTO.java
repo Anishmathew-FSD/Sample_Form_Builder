@@ -16,4 +16,5 @@ public class ValidationDTO {
     private String fileSizeUnit;
     private  int maxFileSize;
     private  int minFileSize;
+    private String buttonColour;
 }
